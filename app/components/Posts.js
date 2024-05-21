@@ -4,9 +4,9 @@ export default function Posts() {
     return (
         <>
             {
-                posts.map(post => {
+                posts.map((post, index) => {
                     return (
-                        <div className="mt-8 px-4 py-6 bg-zinc-950 border border-slate-700 rounded-xl">
+                        <div key={index} className="mt-8 px-4 py-6 bg-zinc-950 border border-slate-700 rounded-xl">
                             <div className="flex items-center gap-4 pl-4">
                                 <div className="">
                                     <div className="w-12 h-12 bg-white rounded-full overflow-hidden">

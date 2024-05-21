@@ -6,8 +6,8 @@ export default function Invitation() {
             <h2 className="p-4 text-lg">Invitation</h2>
             <div className="flex flex-col">
                 {
-                    users.map(user => (
-                        <div className="flex items-center gap-4 p-4 border-t border-gray-500">
+                    users.map((user, index) => (
+                        <div key={index} className="flex items-center gap-4 p-4 border-t border-gray-500">
                             <div className="w-16 h-16 bg-white rounded-full overflow-hidden"></div>
                             <div className="w-full flex flex-col  lg:flex-row lg:items-center lg:justify-between">
                                 <div>
