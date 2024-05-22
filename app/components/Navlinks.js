@@ -26,7 +26,7 @@ export default function Navlinks() {
                 </Link>
             </div>
             <div className="px-2 lg:w-20 ">
-                <Link href={`#`}>
+                <Link href={`/job-listing`}>
                     <div className="flex flex-col items-center  hover:text-violet-500">
                         <span className="material-symbols-outlined scale-110">
                             work
@@ -36,7 +36,7 @@ export default function Navlinks() {
                 </Link>
             </div>
             <div className="px-2 lg:w-20 ">
-                <Link href={`#`}>
+                <Link href={`/messaging`}>
                     <div className="flex flex-col items-center  hover:text-violet-500">
                         <span className="material-symbols-outlined scale-110">
                             chat
@@ -46,7 +46,7 @@ export default function Navlinks() {
                 </Link>
             </div>
             <div className="px-2 lg:w-20 ">
-                <Link href={`#`}>
+                <Link href={`/notification`}>
                     <div className="flex flex-col items-center  hover:text-violet-500">
                         <span className="material-symbols-outlined scale-110">
                             notifications
@@ -56,7 +56,7 @@ export default function Navlinks() {
                 </Link>
             </div>
             <div className="px-2 lg:w-20 ">
-                <Link href={`#`}>
+                <Link href={`/user-profile`}>
                     <div className="flex flex-col items-center  hover:text-violet-500">
                         <span class="material-symbols-outlined">
                             account_circle
