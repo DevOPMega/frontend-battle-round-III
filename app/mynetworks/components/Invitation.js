@@ -9,7 +9,7 @@ export default function Invitation() {
                     users.map((user, index) => (
                         <div key={index} className="flex items-center gap-4 p-4 border-t border-gray-500">
                             <div className="w-16 h-16 bg-white rounded-full overflow-hidden"></div>
-                            <div className="w-full flex flex-col  lg:flex-row lg:items-center lg:justify-between">
+                            <div className="w-full flex flex-col gap-4  lg:flex-row lg:items-center lg:justify-between">
                                 <div>
                                     <h3 className="text-lg">{user.name}</h3>
                                     <p className="text-sm font-extralight">{user.work}</p>
