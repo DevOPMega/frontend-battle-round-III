@@ -20,7 +20,7 @@ export default function CreatePost() {
                             />
                         </div>
                     </div>
-                    <div className="flex justify-between px-6">
+                    <div className="flex justify-between px-2 lg:px-6">
                         <div className="flex items-center gap-2 p-2 cursor-pointer hover:opacity-80">
                             <span className="material-symbols-outlined text-violet-500">
                                 save
