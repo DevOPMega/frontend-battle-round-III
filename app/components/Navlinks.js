@@ -58,7 +58,7 @@ export default function Navlinks() {
             <div className="px-2 lg:w-20 ">
                 <Link href={`/user-profile`}>
                     <div className="flex flex-col items-center  hover:text-violet-500">
-                        <span class="material-symbols-outlined">
+                        <span className="material-symbols-outlined">
                             account_circle
                         </span>
                         <span className="hidden text-sm lg:block">Me</span>

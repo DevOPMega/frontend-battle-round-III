@@ -1,15 +1,15 @@
 
 export default function Searchbar() {
     return (
-        <div className="flex items-center gap-2 px-2 py-2 border-slate-400 rounded-md lg:border">
+        <div className="flex items-center gap-2 px-2 py-2 border border-slate-400 rounded-md ">
             <input
                 className="bg-transparent outline-none placeholder:text-slate-400
-                text-sm placeholder:font-medium hidden lg:block"
+                text-sm placeholder:font-medium  "
                 type="text"
                 placeholder="Search"
             />
             <button className="flex items-center text-sm" type="submit">
-                <span class="material-symbols-outlined">
+                <span className="material-symbols-outlined">
                     search
                 </span>
             </button>

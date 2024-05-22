@@ -38,13 +38,13 @@ export default function Posts() {
                                 <span className="cursor-pointer ">{post.comments} comments {post.reposts} reposts</span>
                             </div>
                             <div className="flex justify-between mt-2 pt-2 border-t border-gray-500">
-                                <span class="material-symbols-outlined px-2 py-1 cursor-pointer text-violet-500">
+                                <span className="material-symbols-outlined px-2 py-1 cursor-pointer text-violet-500">
                                     thumb_up
                                 </span>
-                                <span class="material-symbols-outlined px-2 py-1 cursor-pointer text-violet-500">
+                                <span className="material-symbols-outlined px-2 py-1 cursor-pointer text-violet-500">
                                     comment
                                 </span>
-                                <span class="material-symbols-outlined px-2 py-1 cursor-pointer text-violet-500">
+                                <span className="material-symbols-outlined px-2 py-1 cursor-pointer text-violet-500">
                                     share
                                 </span>
                             </div>

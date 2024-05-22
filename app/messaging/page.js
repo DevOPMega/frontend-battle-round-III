@@ -1,7 +1,9 @@
+import Link from "next/link"
+
 export default function Messaging() {
     return (
         <>
-            <div>Messaging Page</div>
+            
         </>
     )
 }

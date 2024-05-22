@@ -8,7 +8,7 @@ export default function ManageNetworks() {
                 <Link href={`#`}>
                     <div className="flex justify-between items-center">
                         <div className="flex items-center gap-4">
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                                 group
                             </span>
                             <span className="font-extralight">Connections</span>
@@ -21,7 +21,7 @@ export default function ManageNetworks() {
                 <Link href={`#`}>
                     <div className="flex justify-between items-center">
                         <div className="flex items-center gap-4">
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                                 contacts
                             </span>
                             <span className="font-extralight">Contacts</span>
@@ -34,7 +34,7 @@ export default function ManageNetworks() {
                 <Link href={`#`}>
                     <div className="flex justify-between items-center">
                         <div className="flex items-center gap-4">
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                                 person
                             </span>
                             <span className="font-extralight">Following & Followers</span>
@@ -47,7 +47,7 @@ export default function ManageNetworks() {
                 <Link href={`#`}>
                     <div className="flex justify-between items-center">
                         <div className="flex items-center gap-4">
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                                 groups
                             </span>
                             <span className="font-extralight">Groups</span>
@@ -60,7 +60,7 @@ export default function ManageNetworks() {
                 <Link href={`#`}>
                     <div className="flex justify-between items-center">
                         <div className="flex items-center gap-4">
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                                 event
                             </span>
                             <span className="font-extralight">Events</span>
@@ -73,7 +73,7 @@ export default function ManageNetworks() {
                 <Link href={`#`}>
                     <div className="flex justify-between items-center">
                         <div className="flex items-center gap-4">
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                                 pages
                             </span>
                             <span className="font-extralight">Pages</span>
@@ -86,7 +86,7 @@ export default function ManageNetworks() {
                 <Link href={`#`}>
                     <div className="flex justify-between items-center">
                         <div className="flex items-center gap-4">
-                            <span class="material-symbols-outlined">
+                            <span className="material-symbols-outlined">
                                 newspaper
                             </span>
                             <span className="font-extralight">Newsletters</span>
