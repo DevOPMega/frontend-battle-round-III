@@ -1,10 +1,10 @@
 
 export default function Searchbar() {
     return (
-        <div className="flex items-center gap-2 px-2 py-2 border border-slate-400 rounded-md ">
+        <div className="flex items-center gap-2 px-2 py-2 border border-slate-400 rounded-md">
             <input
-                className="bg-transparent outline-none placeholder:text-slate-400
-                text-sm placeholder:font-medium  "
+                className="hidden bg-transparent outline-none placeholder:text-slate-400
+                text-sm placeholder:font-medium lg:block "
                 type="text"
                 placeholder="Search"
             />
