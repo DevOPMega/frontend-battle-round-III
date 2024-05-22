@@ -8,8 +8,8 @@ export default function JobListing() {
                     <h2 className="text-2xl">Top job picks for you</h2>
                     <p className="text-sm font-extralight">Based on your profile and search history</p>
                     {
-                        jobs.map(job => (
-                            <div className="mt-6 flex flex-col">
+                        jobs.map((job, i) => (
+                            <div key={i} className="mt-6 flex flex-col">
                                 <div className="flex gap-4 items-center py-4 border-b border-gray-500">
                                     <div className="w-16 h-16 bg-white">
 
